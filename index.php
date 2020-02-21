@@ -184,7 +184,7 @@
 
                     <div class="iconosNC"></div>
                     <div class="validar">
-                        <button type="submit" class="botonNC" onclick="validarFormulario()"><span class="botonH">Ingresar</span></button>
+                        <button type="submit" class="botonNC" onclick="validarFormulario()" value="Ingresar"><span class="botonNC">Ingresar</span></button>
                     </div>
 
                     <div class="iconosNC"></div>

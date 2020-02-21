@@ -109,13 +109,17 @@ function validarFormulario() {
     } else {
         flagUltimoPunto = true;
     }
-
+    //Vemos el si es valida
+    if ((flagUltimoPunto) || (flagNumCaracteres) || (flagPosicionArroba) || (flagPrimerCaracter) || (flagArroba)) {
+        mensaje.push("El email ingresado es inválido");
+    }
     //checamos el estado de las banderas
     if (!flagUltimoPunto && !flagNumCaracteres && !flagPosicionArroba && !flagPrimerCaracter && !flagArroba) {
         //borramos los mensajes de la lista de errores si es que existen
         document.getElementById("msj").innerHTML = "";
         //añadimos el aviso que paso
-        ejecutaAlerta(mensaje, 2000)
+        ejecutaAlerta(msj);
+    } else {
         //corremos una función que lee los mensajes de arreglo mensaje, y los imprime
         imprimirErrores(mensaje);
     }
