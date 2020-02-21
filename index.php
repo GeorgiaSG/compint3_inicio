@@ -152,28 +152,28 @@
 
                     <div class="Titulo">Titulo</div>
 
-                    <div class="iconosNC"><i class="fas fa-envelope"></i></div>
+                    <div class="iconosNC"><i class="fas fa-user"></i></div>
                     <div class="datos">
                         <form method="post" action="index.php">
                             <input type="text" class="campo" name="nombreNC" placeholder="Nombre" />
                         </form>
                     </div>
 
-                    <div class="iconosNC"><i class="fas fa-phone"></i></div>
+                    <div class="iconosNC"><i class="fas fa-user"></i></div>
                     <div class="datos">
                         <form method="post" action="index.php">
                             <input type="text" class="campo" name="apellidoNC" placeholder="Apellido" />
                         </form>
                     </div>
 
-                    <div class="iconosNC"><i class="fas fa-phone"></i></div>
+                    <div class="iconosNC"><i class="fas fa-building"></i></div>
                     <div class="datos">
                         <form method="post" action="index.php">
                             <input type="text" class="campo" name="nombreNC" placeholder="Empresa" />
                         </form>
                     </div>
 
-                    <div class="iconosNC"><i class="fas fa-phone"></i></div>
+                    <div class="iconosNC"><i class="fas fa-envelope"></i></div>
                     <div class="datosNC">
                         <form method="post" action="index.php">
                             <input type="text" class="campo" name="emailNC" placeholder="Email" />
@@ -187,7 +187,7 @@
                         </form>
                     </div>
 
-                    <div class="iconosNC"><i class="fas fa-phone"></i></div>
+                    <div class="iconosNC"><i class="fas fa-comment"></i></div>
                     <div class="datosNC">
                         <form method="post" action="index.php">
                             <input type="text" class="campo" name="comentariosNC" placeholder="Comentarios" />
