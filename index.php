@@ -150,58 +150,47 @@
                     </div>
 
 
-                    <div class="Titulo">Titulo</div>
+                    <div class="Titulo">Ingreso Nuevo Registro</div>
+
+                    <div class="iconosNC"><i class="fas fa-user"></i></div>
+                    <div class="datos">
+                        <input type="text" id="nombreNC" name="nombreNC" placeholder="Nombre" />
+                    </div>
+
+                    <div class="iconosNC"><i class="fas fa-user"></i></div>
+                    <div class="datos">
+                        <input type="text" id="apellidoNC" name="apellidoNC" placeholder="Apellido" />
+                    </div>
+
+                    <div class="iconosNC"><i class="fas fa-building"></i></div>
+                    <div class="datos">
+                        <input type="text" id="empresa" name="nombreNC" placeholder="Empresa" />
+                    </div>
 
                     <div class="iconosNC"><i class="fas fa-envelope"></i></div>
-                    <div class="datos">
-                        <form method="post" action="index.php">
-                            <input type="text" class="campo" name="nombreNC" placeholder="Nombre" />
-                        </form>
-                    </div>
-
-                    <div class="iconosNC"><i class="fas fa-phone"></i></div>
-                    <div class="datos">
-                        <form method="post" action="index.php">
-                            <input type="text" class="campo" name="apellidoNC" placeholder="Apellido" />
-                        </form>
-                    </div>
-
-                    <div class="iconosNC"><i class="fas fa-phone"></i></div>
-                    <div class="datos">
-                        <form method="post" action="index.php">
-                            <input type="text" class="campo" name="nombreNC" placeholder="Empresa" />
-                        </form>
+                    <div class="datosNC">
+                        <input type="text" id="email" name="emailNC" placeholder="Email" />
                     </div>
 
                     <div class="iconosNC"><i class="fas fa-phone"></i></div>
                     <div class="datosNC">
-                        <form method="post" action="index.php">
-                            <input type="text" class="campo" name="emailNC" placeholder="Email" />
-                        </form>
+                        <input type="text" id="telefono" name="telefonoNC" placeholder="Teléfono" />
                     </div>
 
-                    <div class="iconosNC"><i class="fas fa-phone"></i></div>
+                    <div class="iconosNC"><i class="fas fa-comment"></i></div>
                     <div class="datosNC">
-                        <form method="post" action="index.php">
-                            <input type="text" class="campo" name="telefonoNC" placeholder="Teléfono" />
-                        </form>
-                    </div>
-
-                    <div class="iconosNC"><i class="fas fa-phone"></i></div>
-                    <div class="datosNC">
-                        <form method="post" action="index.php">
-                            <input type="text" class="campo" name="comentariosNC" placeholder="Comentarios" />
-                        </form>
+                        <textarea id="comentario" rows="5" cols="40"></textarea>
                     </div>
 
                     <div class="iconosNC"></div>
-                    <div class="datosNC">
-                        <button type="submit" class="botonNC"><span class="botonH">Ingresar</span></button>
-                        <textarea id="w3mission" rows="5" cols="40">Escribe tus comentarios</textarea>
+                    <div class="validar">
+                        <button type="submit" class="botonNC" onclick="validarFormulario()"><span class="botonH">Ingresar</span></button>
                     </div>
 
-                    <div class="iconosNC">(vacio)</div>
-                    <div class="datosNC">(Espacio para el mensaje de validación del formulario)</div>
+                    <div class="iconosNC"></div>
+                    <div>
+                        <ul class="mensaje" id="msj"></ul>
+                    </div>
                 </div>
             </form>
         </div>

@@ -232,10 +232,10 @@ body {
     min-height: 300px;
     padding: 10px;
     grid-template-columns: 10% 90%;
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(10, auto);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 10px;
     border: 2px solid black;
 
 }
@@ -254,31 +254,77 @@ body {
 
 }
 
-#modal>div>div>div.cerrarNuevo>botonH {
+.cerrarNuevo>button:nth-child(1) {
+    width: 20px;
+    height: 20px;
     border: none;
-    color: #aaaaaa;
-    background-color: transparent;
-    cursor: pointer;
+    color: rgb(46, 110, 139);
+    background-color: white;
 }
 
 .iconosNC {
     padding-top: 10px;
+    text-align: center;
     color: rgb(46, 110, 139);
 }
 
-#w3mission {
-    max-width: 200px;
-    max-height: 100px;
+div.iconosNC:nth-child(13) {
+    padding: 0;
 }
 
-.datosNC {
+#comentario {
+    height: 48px;
+}
+
+.modal-container input {
     width: 340px;
     margin-bottom: 10px;
     margin-right: 2px;
     padding-top: 10px;
     padding-left: 5px;
-    border-bottom: 1px rgb(250, 116, 54);
+    border: none;
+    border-bottom: solid 1px rgb(250, 116, 54);
     font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(150, 150, 150);
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgb(150, 150, 150);
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgb(150, 150, 150);
+}
+
+:-ms-input-placeholder {
+    color: rgb(150, 150, 150);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(150, 150, 150);
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgb(150, 150, 150);
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgb(150, 150, 150);
+}
+
+:-ms-input-placeholder {
+    color: rgb(150, 150, 150);
+}
+
+::placeholder {
+    color: rgb(150, 150, 150);
 }
 
 .botonNC {
@@ -293,5 +339,14 @@ body {
     background-color: rgb(250, 116, 54);
 }
 
+.error {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(250, 116, 54);
+}
+
+.mensaje {
+    grid-column-end: span 2;
+}
 
 /******termina ventana modal *******/
